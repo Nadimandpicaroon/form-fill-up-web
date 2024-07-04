@@ -7,7 +7,8 @@
 </head>
 <body>
 
-    <h2>Contact Us</h2>
+    <div class="form">
+        <h2>Contact Us</h2>
     <form action="/submit_form" method="post">
         <!-- Text Input -->
         <label for="name">Name:</label>
@@ -21,12 +22,15 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br><br>
 
+    </div>
         <!-- Radio Buttons -->
-        <p>Gender:</p>
+        <div class="form">
+            <p>Gender:</p>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br><br>
+        </div>
 
         <!-- Checkbox -->
         <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
